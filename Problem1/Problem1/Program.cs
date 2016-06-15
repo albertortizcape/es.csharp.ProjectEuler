@@ -18,10 +18,10 @@ namespace Problem1
 
             SumMultiplesController controller = new SumMultiplesController();
             int sum10 = controller.SumMultiplesOf3And5(10);
-            Console.WriteLine("La suma de los 10 primeros multiplos de 3 y 5 es " + sum10);
+            Console.WriteLine("The sum of the first 10 multiple values of 3 and 5 is " + sum10);
 
             int sum1000 = controller.SumMultiplesOf3And5(1000);
-            Console.WriteLine("La suma de los 1000 primeros multiplos de 3 y 5 es " + sum1000);
+            Console.WriteLine("The sum of the first 1000 multiple values of 3 and 5 is  " + sum1000);
 
             Console.Read();
             return;
