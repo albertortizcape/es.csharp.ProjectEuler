@@ -1,0 +1,9 @@
+F:\Alberto\ProjectEuler\Problem1\bin\Debug\Problem1.exe.config
+F:\Alberto\ProjectEuler\Problem1\bin\Debug\Problem1.exe
+F:\Alberto\ProjectEuler\Problem1\bin\Debug\Problem1.pdb
+F:\Alberto\ProjectEuler\Problem1\obj\Debug\Problem1.csprojResolveAssemblyReference.cache
+F:\Alberto\ProjectEuler\Problem1\obj\Debug\Problem1.exe
+F:\Alberto\ProjectEuler\Problem1\obj\Debug\Problem1.pdb
+F:\Alberto\ProjectEuler\Problem1\Problem1\bin\Debug\Problem1.exe.config
+F:\Alberto\ProjectEuler\Problem1\Problem1\obj\Debug\Problem1.exe
+F:\Alberto\ProjectEuler\Problem1\Problem1\obj\Debug\Problem1.pdb

@@ -1,0 +1,9 @@
+F:\Alberto\ProjectEuler\Problem1UnitTest\obj\Debug\Problem1UnitTest.csprojResolveAssemblyReference.cache
+F:\Alberto\ProjectEuler\Problem1UnitTest\bin\Debug\Problem1UnitTest.dll
+F:\Alberto\ProjectEuler\Problem1UnitTest\bin\Debug\Problem1UnitTest.pdb
+F:\Alberto\ProjectEuler\Problem1UnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+F:\Alberto\ProjectEuler\Problem1UnitTest\bin\Debug\Problem1.exe
+F:\Alberto\ProjectEuler\Problem1UnitTest\bin\Debug\Problem1.pdb
+F:\Alberto\ProjectEuler\Problem1UnitTest\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+F:\Alberto\ProjectEuler\Problem1UnitTest\obj\Debug\Problem1UnitTest.dll
+F:\Alberto\ProjectEuler\Problem1UnitTest\obj\Debug\Problem1UnitTest.pdb
