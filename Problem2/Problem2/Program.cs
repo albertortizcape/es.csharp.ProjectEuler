@@ -17,6 +17,33 @@ namespace Problem2
 
                 By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
             */
+
+            int previousTerm = 1;
+            int nextTerm = 2;
+
+            int sumEvenValues = 0;
+
+            OperationController controller = new OperationController();
+            while (nextTerm <= 4000000)
+            {
+                // Check if the next term is even, if so, add it to the sumEvenValue
+                if (controller.IsEvenValue(nextTerm))
+                {
+                    sumEvenValues = controller.Sum(sumEvenValues, nextTerm);
+                }
+
+                // Get the next value
+                int tempNextValue = controller.Sum(previousTerm, nextTerm);
+
+                // Change the two lastest terms
+                previousTerm = nextTerm;
+                nextTerm = tempNextValue;
+            }
+
+            Console.WriteLine("The sum of the even-valued terms from Fibonacci sequence below four million is " + sumEvenValues);
+            Console.Read();
+
+            return;
         }
     }
 }
