@@ -8,9 +8,29 @@ namespace Problem3
 {
     public class NumberOperationsController
     {
-        public bool IsMultiple(int pDividen, int pDivisor)
+        public bool IsMultiple(double pDividen, double pDivisor)
         {
-            return (pDividen % pDivisor) == 0;
+            double result = pDividen % pDivisor;
+            return result == 0 && result != double.NaN;
+        }
+
+        public bool IsPrimeNumber(double pNumber)
+        {
+            bool isPrime = false;
+            for (double divisor = 2; divisor < pNumber; divisor++)
+            {
+                if (!IsMultiple(pNumber, divisor))
+                {
+                    isPrime = true;
+                }
+                else
+                {
+                    isPrime = false;
+                    break;
+                }
+            }
+
+            return isPrime;
         }
     }
 }

@@ -5,45 +5,53 @@ using Problem3;
 namespace Problem3UnitTest
 {
     [TestClass]
-    public class MultiplesNumbersTest
+    public class PrimeNumbersTest
     {
         [TestMethod]
-        public void MultiplesNumbers_True()
+        public void PrimeNumber_True()
         {
-            // Dividend
-            // Divisor
-            // Quotient
             NumberOperationsController controller = new NumberOperationsController();
             bool expected = true;
-            bool actual = controller.IsMultiple(10, 5);
+            bool actual = controller.IsPrimeNumber(11);
             Assert.AreEqual(expected, actual);
 
             expected = true;
-            actual = controller.IsMultiple(333, 3);
+            actual = controller.IsPrimeNumber(977);
             Assert.AreEqual(expected, actual);
         }
 
         [TestMethod]
-        public void MultiplesNumbers_False()
+        public void PrimeNumber_False()
         {
             NumberOperationsController controller = new NumberOperationsController();
             bool expected = false;
-            bool actual = controller.IsMultiple(7, 8);
+            bool actual = controller.IsPrimeNumber(3333);
             Assert.AreEqual(expected, actual);
 
             expected = false;
-            actual = controller.IsMultiple(100, 3);
+            actual = controller.IsPrimeNumber(1422);
+            Assert.AreEqual(expected, actual);
+
+            expected = false;
+            actual = controller.IsPrimeNumber(2);
             Assert.AreEqual(expected, actual);
         }
 
         [TestMethod]
-        // [ExpectedException(typeof(DivideByZeroException), "Undefined result when you divide by 0")]
-        public void MultiplesNumbers_Zero()
+        public void PrimeNumber_Zero()
         {
-            // Double division by Zero will return a NaN.
             NumberOperationsController controller = new NumberOperationsController();
             bool expected = false;
-            bool actual = controller.IsMultiple(10, 0);
+            bool actual = controller.IsPrimeNumber(0);
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void PrimeNumber_One()
+        {
+            NumberOperationsController controller = new NumberOperationsController();
+            bool expected = false;
+            bool actual = controller.IsPrimeNumber(1);
             Assert.AreEqual(expected, actual);
         }
     }
